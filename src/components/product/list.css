@@ -1,0 +1,16 @@
+.list-container{
+    list-style:none
+}
+.list-item{
+    list-style-type: none;
+}
+
+.list-item > div{
+    display: flex;
+    justify-content: center;
+}
+
+.list-pagination{
+    display: flex;
+    justify-content: center;
+  }

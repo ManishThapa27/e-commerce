@@ -1,0 +1,43 @@
+/* ResponsiveGrid.css */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .grid-item {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);    
+    cursor: pointer;    
+  }  
+
+  .grid-pagination{
+    display: flex;
+    justify-content: center;
+  }
+
+  .item-title{
+    font-size: .8rem;
+    text-align: justify;
+  }
+
+  .item-desc{
+    font-size: .6rem;
+    text-align: justify;
+    /* Truncate text with ellipsis */
+    /* white-space: nowrap; */    
+    /* width: 100ch;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+  }
+
+  .item-price{
+    text-align: right;
+    vertical-align: bottom;
+  }
