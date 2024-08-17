@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Please see the demo link below:
+https://manishthapa27.github.io/e-commerce/
+
+
 ## Available Scripts
 
 # Requirements
